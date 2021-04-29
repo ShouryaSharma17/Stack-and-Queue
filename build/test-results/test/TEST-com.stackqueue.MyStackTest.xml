@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.stackqueue.MyStackTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-29T15:08:10" hostname="DESKTOP-DCC7S3K" time="0.048">
+<testsuite name="com.stackqueue.MyStackTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-29T16:14:59" hostname="DESKTOP-DCC7S3K" time="0.055">
   <properties/>
-  <testcase name="givenInput_ToLinkedList_ShouldPassTest()" classname="com.stackqueue.MyStackTest" time="0.048"/>
+  <testcase name="givenInput_WhenPopped_ShouldPassTest()" classname="com.stackqueue.MyStackTest" time="0.055"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

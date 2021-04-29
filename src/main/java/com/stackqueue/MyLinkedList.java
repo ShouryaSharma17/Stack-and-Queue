@@ -8,7 +8,7 @@ public class MyLinkedList {
         this.head=null;
         this.tail=null;
     }
-
+    // Add elements
     public void add(INode newNode) {
         if(this.tail == null) {
             this.tail = newNode;
@@ -21,5 +21,11 @@ public class MyLinkedList {
             this.head = newNode;
             this.head.setNext(tempNode);
         }
+    }
+    // Delete elements
+    public INode pop() {
+        INode tempNode=this.head;
+        this.head=head.getNext();
+        return tempNode;
     }
 }

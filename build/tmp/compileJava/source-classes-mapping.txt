@@ -4,5 +4,7 @@ com/stackqueue/INode.java
  com.stackqueue.INode
 com/stackqueue/MyStack.java
  com.stackqueue.MyStack
+com/stackqueue/MyQueue.java
+ com.stackqueue.MyQueue
 com/stackqueue/MyLinkedList.java
  com.stackqueue.MyLinkedList

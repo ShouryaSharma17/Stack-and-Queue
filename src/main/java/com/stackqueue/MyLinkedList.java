@@ -41,4 +41,17 @@ public class MyLinkedList {
             this.tail=newNode;
         }
     }
+    // Printing elements
+    public void print() {
+        StringBuffer myNodes= new StringBuffer("All nodes : ");
+        INode tempNode = head;
+        while(tempNode.getNext() != null){
+            myNodes.append(tempNode.getKey());
+            if(!tempNode.equals(tail))
+                myNodes.append("points to");
+            tempNode=tempNode.getNext();
+        }
+        myNodes.append(tempNode.getKey());
+        System.out.println(myNodes);
+    }
 }

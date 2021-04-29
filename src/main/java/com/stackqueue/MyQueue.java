@@ -8,4 +8,10 @@ public class MyQueue<K> {
     public void enQueue(INode newNode) {
         myLinkedList.append(newNode);
     }
+    public void printQueue() {
+        myLinkedList.print();
+    }
+    public INode deQueue(){
+        return myLinkedList.pop();
+    }
 }
